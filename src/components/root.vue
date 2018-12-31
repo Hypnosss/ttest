@@ -3,10 +3,7 @@
         <div class = "border">
             <div class = "equipmentButtonWrapper">
                 <router-link :to="{
-                    name:'equipments',
-                    params:{
-                        id:1
-                    }
+                    name:'equipmentsRoot'
                 }">
                 <img src = "../assets/equipLogo.png" width = "250px" height = "250px">
                 <p>equip</p>
